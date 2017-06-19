@@ -3,7 +3,7 @@
  */
 
 /**
- * ListView 学习demo
+ * ListView 学习demo 。常用列表界面
  */
 
 
@@ -27,7 +27,7 @@ var Dimensions = require('Dimensions');
 var {width, height} = Dimensions.get('window');
 
 /*加载数据*/
-var WineJson = require("./json/Wine.json");
+var WineJson = require("./../json/Wine.json");
 
 var ListViewDemo = React.createClass({
 
