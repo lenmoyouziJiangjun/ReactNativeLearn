@@ -12,12 +12,12 @@ import {
   View
 } from 'react-native';
 
-var LoginView = require("./login")
+var Main = require("./Component/Main")
 
 export default class ReactNativeLearn extends Component {
   render() {
     return (
-         <LoginView/>
+         <Main/>
     );
   }
 }

@@ -127,7 +127,7 @@ var ListViewDemo3 = React.createClass({
     renderSection(sectionData, sectionID){
         return (
             <View style={GroupListViewStyle.sectionStyle}>
-                <Text style={{fontSize:20,textColor:"#FF0000",marginLeft:10,}}>{sectionData} </Text>
+                <Text style={{fontSize:20,color:"#FF0000",marginLeft:10,}}>{sectionData} </Text>
             </View>
         )
     },
