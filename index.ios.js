@@ -15,13 +15,13 @@ import {
 } from 'react-native';
 
 //引入外部js文件
-var ScrollViewLearn = require("./learnjs/ScrollViewLearn");
-var ListViewDemo = require("./learnjs/ListViewDemo")
-var ListViewDemo2 = require("./learnjs/ListViewDemo2")
-var ListViewDemo3 = require("./learnjs/ListViewDemo3")
-var TabBarDemo = require("./learnjs/TabBarLean")
+var ScrollViewLearn = require("./learn/learnjs/ScrollViewLearn");
+var ListViewDemo = require("./learn/learnjs/ListViewDemo")
+var ListViewDemo2 = require("./learn/learnjs/ListViewDemo2")
+var ListViewDemo3 = require("./learn/learnjs/ListViewDemo3")
+var TabBarDemo = require("./learn/learnjs/TabBarLean")
 
-var Main = require("./Component/Main")
+var Main = require("./wangyi/Main")
 
 export default class ReactNativeLearn extends Component {
     /**

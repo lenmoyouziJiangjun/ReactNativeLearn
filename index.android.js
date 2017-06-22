@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-var Main = require("./Component/Main")
+var Main = require("./wangyi/Main")
 
 export default class ReactNativeLearn extends Component {
   render() {
